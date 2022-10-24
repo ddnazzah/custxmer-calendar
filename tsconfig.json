@@ -10,7 +10,8 @@
     "paths": {
       // This needs to be mirrored in babel.config.js
       "@components/*": ["src/components/*"],
-      "*": ["src/*"]
+      "@shared/*": ["src/_shared/*"],
+      "@src/*": ["src/*"],
     }
   }
 }
