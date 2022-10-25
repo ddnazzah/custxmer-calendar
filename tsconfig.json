@@ -12,6 +12,9 @@
       "@components/*": ["src/components/*"],
       "@shared/*": ["src/_shared/*"],
       "@src/*": ["src/*"],
-    }
+    },
+    "types": [
+      "@types/styled-components-react-native"
+    ]
   }
 }

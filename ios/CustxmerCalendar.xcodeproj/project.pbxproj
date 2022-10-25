@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* CustxmerCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* CustxmerCalendarTests.m */; };
+		058A84149458416A9A3DA606 /* Manrope-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E657C91F996945E4957FCA02 /* Manrope-Medium.ttf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-CustxmerCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-CustxmerCalendar.a */; };
+		0FD99160D97C45E3821905B4 /* Sora-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AB40AFFE5F94A4FB374F6BC /* Sora-SemiBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		34072108F3834E29AC1AEDCB /* sora.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2332B5D4066F4CF89A69B30A /* sora.ttf */; };
+		411B00681CF1431EB2A9A8CC /* Sora-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 354C648B9E704EEC930D457D /* Sora-Regular.ttf */; };
+		62EA975B1C5E4B30AD169D3E /* Manrope-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 672CEAA4DEBB4A3890E11930 /* Manrope-Bold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-CustxmerCalendar-CustxmerCalendarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CustxmerCalendar-CustxmerCalendarTests.a */; };
+		80899313B47E4636A45E027B /* Manrope-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E250F603B5D4DA19B88EE9E /* Manrope-Regular.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9BC7A95A18084421B1EC5ED0 /* Manrope-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2EC21CECD27140EDA5AFC5B5 /* Manrope-SemiBold.ttf */; };
+		A7B559F571BD45E6850AF518 /* Sora-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8D69127EB2E24835B2454CAF /* Sora-Bold.ttf */; };
+		B3E019F6025C4813AB21EA34 /* manrope.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40D9788C04934484A5203B7A /* manrope.ttf */; };
+		EF56658FD09E44F7BDCF0A03 /* Sora-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B27D32BD30674F69802D27D9 /* Sora-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +47,22 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = CustxmerCalendar/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CustxmerCalendar/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-CustxmerCalendar-CustxmerCalendarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustxmerCalendar-CustxmerCalendarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2332B5D4066F4CF89A69B30A /* sora.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = sora.ttf; path = ../src/_shared/assets/fonts/sora.ttf; sourceTree = "<group>"; };
+		2AB40AFFE5F94A4FB374F6BC /* Sora-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-SemiBold.ttf"; path = "../src/_shared/assets/fonts/Sora-SemiBold.ttf"; sourceTree = "<group>"; };
+		2EC21CECD27140EDA5AFC5B5 /* Manrope-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-SemiBold.ttf"; path = "../src/_shared/assets/fonts/Manrope-SemiBold.ttf"; sourceTree = "<group>"; };
+		354C648B9E704EEC930D457D /* Sora-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Regular.ttf"; path = "../src/_shared/assets/fonts/Sora-Regular.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-CustxmerCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustxmerCalendar.debug.xcconfig"; path = "Target Support Files/Pods-CustxmerCalendar/Pods-CustxmerCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		40D9788C04934484A5203B7A /* manrope.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = manrope.ttf; path = ../src/_shared/assets/fonts/manrope.ttf; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-CustxmerCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustxmerCalendar.release.xcconfig"; path = "Target Support Files/Pods-CustxmerCalendar/Pods-CustxmerCalendar.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-CustxmerCalendar-CustxmerCalendarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustxmerCalendar-CustxmerCalendarTests.debug.xcconfig"; path = "Target Support Files/Pods-CustxmerCalendar-CustxmerCalendarTests/Pods-CustxmerCalendar-CustxmerCalendarTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-CustxmerCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustxmerCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		672CEAA4DEBB4A3890E11930 /* Manrope-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Bold.ttf"; path = "../src/_shared/assets/fonts/Manrope-Bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CustxmerCalendar/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-CustxmerCalendar-CustxmerCalendarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustxmerCalendar-CustxmerCalendarTests.release.xcconfig"; path = "Target Support Files/Pods-CustxmerCalendar-CustxmerCalendarTests/Pods-CustxmerCalendar-CustxmerCalendarTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D69127EB2E24835B2454CAF /* Sora-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Bold.ttf"; path = "../src/_shared/assets/fonts/Sora-Bold.ttf"; sourceTree = "<group>"; };
+		8E250F603B5D4DA19B88EE9E /* Manrope-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Regular.ttf"; path = "../src/_shared/assets/fonts/Manrope-Regular.ttf"; sourceTree = "<group>"; };
+		B27D32BD30674F69802D27D9 /* Sora-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Sora-Medium.ttf"; path = "../src/_shared/assets/fonts/Sora-Medium.ttf"; sourceTree = "<group>"; };
+		E657C91F996945E4957FCA02 /* Manrope-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Manrope-Medium.ttf"; path = "../src/_shared/assets/fonts/Manrope-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -122,6 +142,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				90D6ADE6BF2F45769EE04EDA /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -135,6 +156,24 @@
 				00E356EE1AD99517003FC87E /* CustxmerCalendarTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		90D6ADE6BF2F45769EE04EDA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				672CEAA4DEBB4A3890E11930 /* Manrope-Bold.ttf */,
+				E657C91F996945E4957FCA02 /* Manrope-Medium.ttf */,
+				8E250F603B5D4DA19B88EE9E /* Manrope-Regular.ttf */,
+				2EC21CECD27140EDA5AFC5B5 /* Manrope-SemiBold.ttf */,
+				8D69127EB2E24835B2454CAF /* Sora-Bold.ttf */,
+				B27D32BD30674F69802D27D9 /* Sora-Medium.ttf */,
+				354C648B9E704EEC930D457D /* Sora-Regular.ttf */,
+				2AB40AFFE5F94A4FB374F6BC /* Sora-SemiBold.ttf */,
+				40D9788C04934484A5203B7A /* manrope.ttf */,
+				2332B5D4066F4CF89A69B30A /* sora.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -244,6 +283,16 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				62EA975B1C5E4B30AD169D3E /* Manrope-Bold.ttf in Resources */,
+				058A84149458416A9A3DA606 /* Manrope-Medium.ttf in Resources */,
+				80899313B47E4636A45E027B /* Manrope-Regular.ttf in Resources */,
+				9BC7A95A18084421B1EC5ED0 /* Manrope-SemiBold.ttf in Resources */,
+				A7B559F571BD45E6850AF518 /* Sora-Bold.ttf in Resources */,
+				EF56658FD09E44F7BDCF0A03 /* Sora-Medium.ttf in Resources */,
+				411B00681CF1431EB2A9A8CC /* Sora-Regular.ttf in Resources */,
+				0FD99160D97C45E3821905B4 /* Sora-SemiBold.ttf in Resources */,
+				B3E019F6025C4813AB21EA34 /* manrope.ttf in Resources */,
+				34072108F3834E29AC1AEDCB /* sora.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
