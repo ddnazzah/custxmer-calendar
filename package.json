@@ -31,6 +31,7 @@
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/react-native": "^11.3.0",
     "@tsconfig/react-native": "^2.0.2",
     "@types/jest": "^26.0.23",
     "@types/react": "^18.0.21",
