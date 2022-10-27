@@ -2,7 +2,7 @@
  * @Author: Dieu-Donne Nazzah
  * @Date: 2022-10-24 07:43:42
  * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2022-10-25 18:00:46
+ * @Last Modified time: 2022-10-27 19:36:44
  */
 
 import { DatesProps } from '@shared/types';
@@ -20,15 +20,16 @@ interface Props {
         year: number;
         dates: DatesProps;
     };
+    testID?: string;
 }
 
 const Calendar = (props: Props) => {
-    const { calendarProps } = props;
+    const { calendarProps, testID } = props;
     const { nameOfDays, newDays, renderMood, currentDate } =
         useCalendar(calendarProps);
 
     return (
-        <Container>
+        <Container testID={testID}>
             <MonthYearWrapper>
                 <MonthYearText>
                     {format(currentDate, 'MMMM, yyyy')}

@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Splash renders correctly 1`] = `
+<BVLinearGradient
+  colors={
+    Array [
+      4278190080,
+      4294400067,
+      4279311535,
+    ]
+  }
+  endPoint={
+    Object {
+      "x": 0.5,
+      "y": 1,
+    }
+  }
+  locations={null}
+  startPoint={
+    Object {
+      "x": 0.5,
+      "y": 0,
+    }
+  }
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#ffffff",
+          "fontSize": 36,
+          "letterSpacing": 1,
+        },
+      ]
+    }
+  >
+    Custxmer
+  </Text>
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#ffffff",
+          "fontSize": 36,
+          "letterSpacing": 1,
+        },
+      ]
+    }
+  >
+    Calendar
+  </Text>
+</BVLinearGradient>
+`;

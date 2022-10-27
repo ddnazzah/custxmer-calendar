@@ -1,0 +1,1384 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Calendar/> renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexBasis": 0,
+        "flexGrow": 1,
+        "flexShrink": 1,
+      },
+    ]
+  }
+>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Sora-Bold",
+            "fontSize": 30,
+          },
+        ]
+      }
+    >
+      September, 2022
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginVertical": 20,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Sora-Medium",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Mon
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Sora-Medium",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Tue
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Sora-Medium",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Wed
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Sora-Medium",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Thu
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Sora-Medium",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Fri
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Sora-Medium",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Sat
+    </Text>
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#ffffff",
+            "fontFamily": "Sora-Medium",
+            "fontSize": 18,
+          },
+        ]
+      }
+    >
+      Sun
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+        },
+      ]
+    }
+  >
+    <View
+      shiftIndex={4}
+      style={
+        Array [
+          Object {
+            "height": 80,
+            "width": 304.2857142857143,
+          },
+        ]
+      }
+    />
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <SvgMock
+        testID="sadMood"
+      />
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        1
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        2
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        3
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <SvgMock
+        testID="happyMood"
+      />
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        4
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        5
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <SvgMock
+        testID="fairMood"
+      />
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        6
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        7
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        8
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        9
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        10
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        11
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        12
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        13
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        14
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        15
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        16
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        17
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        18
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        19
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        20
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        21
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        22
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        23
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        24
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        25
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        26
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <SvgMock
+        testID="sadMood"
+      />
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        27
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        28
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        29
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      collapsable={false}
+      focusable={false}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 50,
+          "justifyContent": "flex-end",
+          "marginTop": 30,
+          "opacity": 1,
+          "width": 101.42857142857143,
+        }
+      }
+    >
+      <Text
+        _isToday={false}
+        style={
+          Array [
+            Object {
+              "alignSelf": "center",
+              "color": "#ffffff",
+              "fontFamily": "sora",
+              "fontSize": 18,
+              "fontWeight": "normal",
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        30
+      </Text>
+    </View>
+  </View>
+</View>
+`;

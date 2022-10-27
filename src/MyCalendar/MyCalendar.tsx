@@ -2,7 +2,7 @@
  * @Author: Dieu-Donne Nazzah
  * @Date: 2022-10-24 04:39:53
  * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2022-10-25 18:12:24
+ * @Last Modified time: 2022-10-27 19:29:41
  */
 import DarkMode from '@shared/assets/vectors/darkmode.svg';
 import LightMode from '@shared/assets/vectors/lightmode.svg';
@@ -20,19 +20,20 @@ const MyCalendar = () => {
 
     return (
         <SafeAreaView>
-            <Container>
+            <Container textI="myCalendar">
                 <StatusBar hidden={false} />
                 <Button
                     onPress={toggleTheme}
                     backgroundColor="transparent"
-                    style={styles.toggleModeButton}>
+                    style={styles.toggleModeButton}
+                    testID="themeToggleBtn">
                     {theme === 'dark' ? (
-                        <LightMode height="25" />
+                        <LightMode height="25" testID="lightModeIcon" />
                     ) : (
-                        <DarkMode height="25" />
+                        <DarkMode height="25" testID="darkModeIcon" />
                     )}
                 </Button>
-                <Calendar calendarProps={calendarProps} />
+                <Calendar calendarProps={calendarProps} testID="calendar" />
             </Container>
         </SafeAreaView>
     );

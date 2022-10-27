@@ -2,7 +2,7 @@
  * @Author: Dieu-Donne Nazzah
  * @Date: 2022-10-24 07:48:01
  * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2022-10-25 15:17:39
+ * @Last Modified time: 2022-10-27 19:47:19
  */
 
 import Fair from '@shared/assets/vectors/fair.svg';
@@ -33,11 +33,11 @@ const useCalendar = (props: Props) => {
 
     const renderIcon = (mood: string) => {
         if (mood === 'happy') {
-            return <Happy />;
+            return <Happy testID="happyMood" />;
         } else if (mood === 'fair') {
-            return <Fair />;
+            return <Fair testID="fairMood" />;
         } else if (mood === 'sad') {
-            return <Sad />;
+            return <Sad testID="sadMood" />;
         } else {
             return <Fragment />;
         }

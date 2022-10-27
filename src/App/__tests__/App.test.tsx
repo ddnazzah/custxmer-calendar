@@ -1,14 +1,27 @@
-/**
- * @format
- */
-
+import { render, screen } from '@testing-library/react-native';
 import React from 'react';
-import 'react-native';
+import TestProvider from '../../@testing/Provider';
 import App from '../App';
+import { InitializationWrapper } from '../components';
 
-// Note: test renderer must be required after react-native.
-import renderer from 'react-test-renderer';
+describe('App', () => {
+    it('renders correctly', () => {
+        render(
+            <TestProvider>
+                <App />
+            </TestProvider>,
+        );
 
-it('renders correctly', () => {
-    renderer.create(<App />);
+        expect(screen.toJSON()).toMatchSnapshot();
+    });
+
+    it('renders initializationWrapper correctly', () => {
+        render(
+            <TestProvider>
+                <InitializationWrapper />
+            </TestProvider>,
+        );
+
+        expect(screen.toJSON()).toMatchSnapshot();
+    });
 });
