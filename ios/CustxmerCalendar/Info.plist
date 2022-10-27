@@ -53,15 +53,10 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Manrope-Bold.ttf</string>
-		<string>Manrope-Medium.ttf</string>
-		<string>Manrope-Regular.ttf</string>
-		<string>Manrope-SemiBold.ttf</string>
 		<string>Sora-Bold.ttf</string>
 		<string>Sora-Medium.ttf</string>
 		<string>Sora-Regular.ttf</string>
 		<string>Sora-SemiBold.ttf</string>
-		<string>manrope.ttf</string>
 		<string>sora.ttf</string>
 	</array>
 </dict>

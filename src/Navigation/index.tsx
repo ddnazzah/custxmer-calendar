@@ -2,7 +2,7 @@
  * @Author: Dieu-Donne Nazzah
  * @Date: 2022-10-24 04:20:57
  * @Last Modified by: Dieu-Donne Nazzah
- * @Last Modified time: 2022-10-24 06:43:24
+ * @Last Modified time: 2022-10-27 20:32:04
  */
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -28,7 +28,7 @@ const Navigator = () => {
     return (
         <NavigationContainer>
             <MainNavigation.Navigator
-                initialRouteName={Constants.routes.CALENDAR}
+                initialRouteName={Constants.routes.SPLASH}
                 screenOptions={{ headerShown: false }}>
                 {routes.map(route => (
                     <MainNavigation.Screen
